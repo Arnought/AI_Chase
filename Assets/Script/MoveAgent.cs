@@ -4,7 +4,6 @@ using UnityEngine.AI;
 public class MoveAgent : MonoBehaviour
 {
     [SerializeField] Camera cam;
-    [SerializeField] GameObject targetObject;
 
     private void Update()
     {
